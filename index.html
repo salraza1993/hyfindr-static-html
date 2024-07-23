@@ -1,0 +1,1528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hyfindr | Analytics Page</title>
+  <link rel="stylesheet" href="/assets/css/shop-entry.css">
+  <link rel="stylesheet" href="/assets/css/bitbag-b2b-plugin-shop.css">
+  <link rel="stylesheet" href="/assets/css/bitbag-syliusBannerPlugin-shop.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/icon.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/semantic.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+  <div class="pusher" data-route="sylius_shop_account_dashboard">
+    <div id="menu" class="top-menu bg-white">
+      <div class="ui container">
+        <div class="top-bar">
+          <a href="/en/">
+            <img src="/build/shop/images/hyfindr_logo.8b76780e.svg" alt="Hyfindr logo" class="ui small image">
+          </a>
+          <div class="hyfindr-header">
+            <div class="searchbar">
+              <div class="hyfindr-searchdiv" data-bb-elastic-url="https://hyfindrbeta.com/en/auto-complete/product">
+                <div class="ui fluid category search">
+                  <div class="ui icon input" style="width: 100%;">
+
+                    <form name="parameters" method="get" action="/en/search" class="ui loadable form full-width"
+                      novalidate="novalidate">
+                      <div class="required field">
+                        <div id="parameters_box">
+                          <div class="required field"><input type="search" id="parameters_box_query"
+                              name="parameters[box][query]" required="required" placeholder="Search..."
+                              class="prompt hyfindr-search-input hyfindr-searchbar bg-topaz-50"></div>
+                        </div>
+                      </div>
+                    </form>
+
+                  </div>
+                </div>
+                <div class="hyfindr-search-results"></div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+
+          <div class="topbar-navigation desktop-menu">
+            <div class="topbar-navigation--item active">
+              <a href="https://hyfindrbeta.com/en/" class="font-bold">
+                Marketplace
+              </a>
+            </div>
+            <div class="topbar-navigation--item">
+              <a href="https://hyfindrbeta.com/en/hydrogen-videos" class="font-bold">
+                <span class="tech-prefix">Tech</span>
+                Videos
+              </a>
+            </div>
+            <div class="topbar-navigation--item">
+              <a href="https://hyfindrbeta.com/en/hydrogen-knowledge/index" class="font-bold">
+                <span class="tech-prefix">Tech</span>
+                Knowledge
+              </a>
+            </div>
+            <div class="topbar-navigation--item">
+              <a href="https://hyfindrbeta.com/en/tech-advisory" class="font-bold">
+                <span class="tech-prefix">Tech</span>
+                Advisory
+              </a>
+            </div>
+            <div class="topbar-navigation--item">
+              <a href="https://community.hyfindr.com/" target="_blank" class="font-bold">
+                <span class="tech-prefix">Tech</span>
+                Community
+              </a>
+            </div>
+          </div>
+
+
+
+          <div class="header-buttons">
+            <div class="currency-container">
+
+            </div>
+            <div class="locale-container">
+              <div class="ui top right pointing dropdown link item language-switcher" id="sylius-locale-selector"
+                tabindex="0">
+                <span class="text sylius-active-locale text-xs font-bold">EN</span>
+                <div class="menu language-menu" tabindex="-1">
+                  <a href="/en/switch-locale/de" class="item sylius-available-locale">
+                    DE - German
+                  </a>
+                </div>
+              </div>
+
+            </div>
+            <a href="/en/product/compare/" class="hyfindr btn btn--borderless btn--icon desktop-menu">
+              <span class="material-symbols-outlined">compare_arrows</span>
+            </a>
+
+
+
+            <a href="/en/wishlist" class="hyfindr btn btn--borderless btn--icon desktop-menu">
+              <span class="material-symbols-outlined">bookmark</span>
+            </a>
+
+
+            <a href="/en/account/dashboard" class="hyfindr btn btn--borderless btn--icon desktop-menu">
+              <span class="material-symbols-outlined">account_circle</span>
+            </a>
+
+            <div class="hyfindr btn btn--borderless btn--icon mobile-account-sidebar-trigger mobile-menu">
+              <span class="material-symbols-outlined">account_circle</span>
+            </div>
+
+            <div class="hyfindr btn btn--borderless btn--icon mobile-sidebar-trigger mobile-menu">
+              <span class="material-symbols-outlined">menu</span>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+    <div class="bg-topaz-100">
+      <div class="ui container">
+        <div class="menu-bar desktop-menu">
+          <div class="ui large stackable menu horizontal-menu">
+            <div class="ui simple dropdown item" tabindex="0">
+              <a href="/en/shop/products/category/components" data-js="menu-link" class="menu-dropdown-link">
+                <span class="text text-sm">Components</span>
+                <span class="material-symbols-outlined">expand_more</span>
+              </a>
+              <div class="menu hyfindr-column-menu" tabindex="-1">
+
+                <a href="/en/shop/products/category/components/aftercoolers"
+                  class="item nested_item text text-sm">Aftercoolers</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category//components/blowers">
+                    <span class="text">Blowers</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(2, 1fr)">
+
+                    <a href="/en/shop/products/category/components/blowers/cathode-blowers"
+                      class="item nested_item text text-sm">Cathode Blowers</a>
+
+
+                    <a href="/en/shop/products/category/components/blowers/hydrogen-blowers"
+                      class="item nested_item text text-sm">Hydrogen Blowers</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/components/breakaways"
+                  class="item nested_item text text-sm">Breakaways</a>
+
+
+                <a href="/en/shop/products/category/components/cell-voltage-monitors"
+                  class="item nested_item text text-sm">Cell Voltage Monitors</a>
+
+
+                <a href="/en/shop/products/category/components/communication-devices"
+                  class="item nested_item text text-sm">Communication Devices</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/connectors">
+                    <span class="text">Connectors</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(2, 1fr)">
+
+                    <a href="/en/shop/products/category/components/connectors/electrical-connectors"
+                      class="item nested_item text text-sm">Electrical Connectors</a>
+
+
+                    <a href="/en/shop/products/category/components/connectors/hydrogen-discharge-connectors"
+                      class="item nested_item text text-sm">Hydrogen Discharge Connectors</a>
+
+                  </div>
+                </div>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/control-units">
+                    <span class="text">Control Units</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(2, 1fr)">
+
+                    <a href="/en/shop/products/category/control-units/battery-management-system"
+                      class="item nested_item text text-sm">Battery Management System</a>
+
+
+                    <a href="/en/shop/products/category/components/control-units/power-management-modules"
+                      class="item nested_item text text-sm">Power Management Modules</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/components/converters"
+                  class="item nested_item text text-sm">Converters</a>
+
+
+                <a href="/en/shop/products/category/components/couplings"
+                  class="item nested_item text text-sm">Couplings</a>
+
+
+                <a href="/en/shop/products/category/components/current-density-meters"
+                  class="item nested_item text text-sm">Current Density Meters</a>
+
+
+                <a href="/en/shop/products/category/components/customised-plastic-parts"
+                  class="item nested_item text text-sm">Customised Plastic Parts</a>
+
+
+                <a href="/en/shop/products/category/components/diaphragms"
+                  class="item nested_item text text-sm">Diaphragms</a>
+
+
+                <a href="/en/shop/products/category/components/electrolyser-cells"
+                  class="item nested_item text text-sm">Electrolyser Cells</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/electrolyser-stacks">
+                    <span class="text">Electrolyser Stacks</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(3, 1fr)">
+
+                    <a href="/en/shop/products/category/components/electrolyser-stacks/aem-electrolysis-stacks"
+                      class="item nested_item text text-sm">AEM Electrolysis Stacks</a>
+
+
+                    <a href="/en/shop/products/category/components/electrolyser-stacks/pem-eletrolysis-stacks"
+                      class="item nested_item text text-sm">PEM Electrolysis Stacks</a>
+
+
+                    <a href="/en/shop/products/category/components/electrolyser-stacks/soec-stacks"
+                      class="item nested_item text text-sm">SOEC Stacks</a>
+
+                  </div>
+                </div>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/electrolytes">
+                    <span class="text">Electrolytes</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(1, 1fr)">
+
+                    <a href="/en/shop/products/category/components/electrolytes/solid-oxide-electrolytes"
+                      class="item nested_item text text-sm">Solid Oxide Electrolytes</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/components/foils" class="item nested_item text text-sm">Foils</a>
+
+
+                <a href="/en/shop/products/category/components/fuel-cell-air-compressors"
+                  class="item nested_item text text-sm">Fuel Cell Air Compressors</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/fuel-cell-filters">
+                    <span class="text">Fuel Cell Filters</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(5, 1fr)">
+
+                    <a href="/en/shop/products/category/components/fuel-cell-filters/cathode-filters"
+                      class="item nested_item text text-sm">Cathode Filters</a>
+
+
+                    <a href="/en/shop/products/category/components/fuel-cell-filters/coolant-filters"
+                      class="item nested_item text text-sm">Coolant Filters</a>
+
+
+                    <a href="/en/shop/products/category/components/fuel-cell-filters/hydrogen-filters"
+                      class="item nested_item text text-sm">Hydrogen Filters</a>
+
+
+                    <a href="/en/shop/products/category/components/fuel-cell-filters/ion-exchange-filters"
+                      class="item nested_item text text-sm">Ion Exchange Filters</a>
+
+
+                    <a href="/en/shop/products/category/components/fuel-cell-filters/silencers"
+                      class="item nested_item text text-sm">Silencers</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/components/fuel-cell-humidifiers"
+                  class="item nested_item text text-sm">Fuel Cell Humidifiers</a>
+
+
+                <a href="/en/shop/products/category/components/fuel-cell-plates"
+                  class="item nested_item text text-sm">Fuel Cell Plates</a>
+
+
+                <a href="/en/shop/products/category/components/fuel-cell-stack-module"
+                  class="item nested_item text text-sm">Fuel Cell Stack Modules</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/fuel-cell-stacks">
+                    <span class="text">Fuel Cell Stacks</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(2, 1fr)">
+
+                    <a href="/en/shop/products/category/components/fuel-cell-stacks/pem-stacks"
+                      class="item nested_item text text-sm">PEM Stacks</a>
+
+
+                    <a href="/en/shop/products/category/components/fuel-cell-stacks/sofc-stacks"
+                      class="item nested_item text text-sm">SOFC Stacks</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/components/gas-handling-units"
+                  class="item nested_item text text-sm">Gas Handling Units</a>
+
+
+                <a href="/en/shop/products/category/components/gaskets"
+                  class="item nested_item text text-sm">Gaskets</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/gauges">
+                    <span class="text">Gauges</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(1, 1fr)">
+
+                    <a href="/en/shop/products/category/components/gauges/pressure-gauges"
+                      class="item nested_item text text-sm">Pressure Gauges</a>
+
+                  </div>
+                </div>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/heat-exchangers">
+                    <span class="text">Heat Exchangers</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(4, 1fr)">
+
+                    <a href="/en/shop/products/category/components/heat-exchangers/finned-tube-heat-exchangers"
+                      class="item nested_item text text-sm">Finned Tube Heat Exchangers</a>
+
+
+                    <a href="/en/shop/products/category/components/heat-exchangers/plate-heat-exchanger"
+                      class="item nested_item text text-sm">Plate Heat Exchanger</a>
+
+
+                    <a href="/en/shop/products/category/components/heat-exchangers/printed-circuit-heat-exchanger"
+                      class="item nested_item text text-sm">Printed Circuit Heat Exchanger</a>
+
+
+                    <a href="/en/shop/products/category/components/heat-exchangers/shell-and-tube-heat-exchanger"
+                      class="item nested_item text text-sm">Shell and Tube Heat Exchangers</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/components/high-precision-mechanical-parts"
+                  class="item nested_item text text-sm">High Precision Mechanical Parts</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/hydrogen-bearings">
+                    <span class="text">Hydrogen Bearings</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(2, 1fr)">
+
+                    <a href="/en/shop/products/category/components/hydrogen-bearings/hydrogen-ball-bearings"
+                      class="item nested_item text text-sm">Hydrogen Ball Bearings</a>
+
+
+                    <a href="/en/shop/products/category/components/hydrogen-bearings/hydrogen-roller-bearing"
+                      class="item nested_item text text-sm">Hydrogen Roller Bearing</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/components/hydrogen-defueling-nozzles"
+                  class="item nested_item text text-sm">Hydrogen Defueling Nozzles</a>
+
+
+                <a href="/en/shop/products/category/components/hydrogen-dryers"
+                  class="item nested_item text text-sm">Hydrogen Dryers</a>
+
+
+                <a href="/en/shop/products/category/components/hydrogen-fittings"
+                  class="item nested_item text text-sm">Hydrogen Fittings</a>
+
+
+                <a href="/en/shop/products/category/components/hydrogen-flow-controllers"
+                  class="item nested_item text text-sm">Hydrogen Flow Controllers</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/hydrogen-flow-meter">
+                    <span class="text">Hydrogen Flow Meter</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(1, 1fr)">
+
+                    <a href="/en/shop/products/category/components/hydrogen-flow-meter/paddle-wheel-flow-meter"
+                      class="item nested_item text text-sm">Paddle Wheel Flow Meter</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/components/hydrogen-fueling-nozzles"
+                  class="item nested_item text text-sm">Hydrogen Fueling Nozzles</a>
+
+
+                <a href="/en/shop/products/category/components/hydrogen-gas-boosters"
+                  class="item nested_item text text-sm">Hydrogen Gas Boosters</a>
+
+
+                <a href="/en/shop/products/category/components/hydrogen-hoses"
+                  class="item nested_item text text-sm">Hydrogen Hoses</a>
+
+
+                <a href="/en/shop/products/category/components/hydrogen-pumps"
+                  class="item nested_item text text-sm">Hydrogen Pumps</a>
+
+
+                <a href="/en/shop/products/category/components/hydrogen-refueling-data-interfaces"
+                  class="item nested_item text text-sm">Hydrogen Refueling Data Interfaces</a>
+
+
+                <a href="/en/shop/products/category/components/hydrogen-tank-liners"
+                  class="item nested_item text text-sm">Hydrogen Tank Liners</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/hydrogen-tanks">
+                    <span class="text">Hydrogen Tanks</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(2, 1fr)">
+
+                    <a href="/en/shop/products/category/components/hydrogen-tanks/gaseous-hydrogen-tanks"
+                      class="item nested_item text text-sm">Gaseous Hydrogen Tanks</a>
+
+
+                    <a href="/en/shop/products/category/components/hydrogen-tanks/liquid-hydrogen-tanks"
+                      class="item nested_item text text-sm">Liquid Hydrogen Tanks</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/components/inverters"
+                  class="item nested_item text text-sm">Inverters</a>
+
+
+                <a href="/en/shop/products/category/components/iot-telemetry-device-components"
+                  class="item nested_item text text-sm">IoT Telemetry Device</a>
+
+
+                <a href="/en/shop/products/category/components/laminates-coating"
+                  class="item nested_item text text-sm">Laminates &amp; Coating</a>
+
+
+                <a href="/en/shop/products/category/components/pipes" class="item nested_item text text-sm">Pipes</a>
+
+
+                <a href="/en/shop/products/category/components/potentiostat"
+                  class="item nested_item text text-sm">Potentiostat</a>
+
+
+                <a href="/en/shop/products/category/components/pressure-relief-devices"
+                  class="item nested_item text text-sm">Pressure Relief Devices</a>
+
+
+                <a href="/en/shop/products/category/components/receptacles"
+                  class="item nested_item text text-sm">Receptacles</a>
+
+
+                <a href="/en/shop/products/category/components/seals" class="item nested_item text text-sm">Seals</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/sensors">
+                    <span class="text">Sensors</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(6, 1fr)">
+
+                    <a href="/en/shop/products/category/components/sensors/conductivity-sensors"
+                      class="item nested_item text text-sm">Conductivity Sensors</a>
+
+
+                    <a href="/en/shop/products/category/components/sensors/flame-detectors"
+                      class="item nested_item text text-sm">Flame Detectors</a>
+
+
+                    <a href="/en/shop/products/category/components/sensors/hydrogen-detectors"
+                      class="item nested_item text text-sm">Hydrogen Detectors</a>
+
+
+                    <a href="/en/shop/products/category/components/sensors/mass-flow-sensors"
+                      class="item nested_item text text-sm">Mass Flow Sensors</a>
+
+
+                    <a href="/en/shop/products/category/components/sensors/pressure-sensors"
+                      class="item nested_item text text-sm">Pressure Sensors</a>
+
+
+                    <a href="/en/shop/products/category/components/sensors/temperature-sensors"
+                      class="item nested_item text text-sm">Temperature Sensors</a>
+
+                  </div>
+                </div>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/separators">
+                    <span class="text">Separators</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(1, 1fr)">
+
+                    <a href="/en/shop/products/category/components/separators/water-separators"
+                      class="item nested_item text text-sm">Water Separators</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/components/signal-processing-units"
+                  class="item nested_item text text-sm">Signal Processing Units</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/switches">
+                    <span class="text">Switches</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(3, 1fr)">
+
+                    <a href="/en/shop/products/category/components/switches/level-switches"
+                      class="item nested_item text text-sm">Level Switches</a>
+
+
+                    <a href="/en/shop/products/category/components/switches/power-switches"
+                      class="item nested_item text text-sm">Power Switches</a>
+
+
+                    <a href="/en/shop/products/category/components/switches/pressure-switches"
+                      class="item nested_item text text-sm">Pressure Switches</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/components/thermocouples"
+                  class="item nested_item text text-sm">Thermocouples</a>
+
+
+                <a href="/en/shop/products/category/components/transducers"
+                  class="item nested_item text text-sm">Transducers</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/transmitters">
+                    <span class="text">Transmitters</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(4, 1fr)">
+
+                    <a href="/en/shop/products/category/components/transmitters/moisture-transmitters"
+                      class="item nested_item text text-sm">Moisture Transmitters</a>
+
+
+                    <a href="/en/shop/products/category/components/transmitters/oxygen-transmitters"
+                      class="item nested_item text text-sm">Oxygen Transmitters</a>
+
+
+                    <a href="/en/shop/products/category/components/transmitters/pressure-transmitters"
+                      class="item nested_item text text-sm">Pressure Transmitters</a>
+
+
+                    <a href="/en/shop/products/category/components/transmitters/thermal-conductivity-transmitters"
+                      class="item nested_item text text-sm">Thermal Conductivity Transmitters</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/components/tube-connections"
+                  class="item nested_item text text-sm">Tube Connections</a>
+
+
+                <a href="/en/shop/products/category/components/tubes" class="item nested_item text text-sm">Tubes</a>
+
+
+                <a href="/en/shop/products/category/components/ultracapacitors"
+                  class="item nested_item text text-sm">Ultracapacitors</a>
+
+
+                <a href="/en/shop/products/category/components/valve-block" class="item nested_item text text-sm">Valve
+                  Block</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/components/valves">
+                    <span class="text">Valves</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu">
+
+                    <a href="/en/shop/products/category/components/valves/air-actuated-valves"
+                      class="item nested_item text text-sm">Air Actuated Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/air-flow-control-valves"
+                      class="item nested_item text text-sm">Air Flow Control Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/angle-seat-valves"
+                      class="item nested_item text text-sm">Angle Seat Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/ball-valves"
+                      class="item nested_item text text-sm">Ball Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/cathode-isolation-valves"
+                      class="item nested_item text text-sm">Cathode Isolation Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/check-valves"
+                      class="item nested_item text text-sm">Check Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/control-valves"
+                      class="item nested_item text text-sm">Control Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/cryogenic-valves"
+                      class="item nested_item text text-sm">Cryogenic Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/flow-control-valves"
+                      class="item nested_item text text-sm">Flow Control Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/globe-valves"
+                      class="item nested_item text text-sm">Globe Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/hydrogen-back-pressure-regulators"
+                      class="item nested_item text text-sm">Hydrogen Back Pressure Regulators</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/hydrogen-fuel-cell-pressure-regulators"
+                      class="item nested_item text text-sm">Hydrogen Fuel Cell Pressure Regulators</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/hydrogen-pressure-reducing-valves"
+                      class="item nested_item text text-sm">Hydrogen Pressure Reducing Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/hydrogen-pressure-relief-valves"
+                      class="item nested_item text text-sm">Hydrogen Pressure Relief Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/hydrogen-pressure-solenoid-valves"
+                      class="item nested_item text text-sm">Hydrogen Pressure Solenoid Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/hydrogen-tank-valves"
+                      class="item nested_item text text-sm">Hydrogen Tank Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/needle-valves"
+                      class="item nested_item text text-sm">Needle Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/on-tank-valves"
+                      class="item nested_item text text-sm">On Tank Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/plunger-valves"
+                      class="item nested_item text text-sm">Plunger Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/proportional-valves"
+                      class="item nested_item text text-sm">Proportional Valves</a>
+
+
+                    <a href="/en/shop/products/category/components/valves/shut-off-valves"
+                      class="item nested_item text text-sm">Shut-Off Valves</a>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="ui simple dropdown item" tabindex="0">
+              <a href="/en/shop/products/category/equipment" data-js="menu-link" class="menu-dropdown-link">
+                <span class="text text-sm">Equipment</span>
+                <span class="material-symbols-outlined">expand_more</span>
+              </a>
+              <div class="menu hyfindr-column-menu" style="grid-template-rows: repeat(11, 1fr)" tabindex="-1">
+
+                <a href="/en/shop/products/category/equipment/bipolar-plates-manufacturing"
+                  class="item nested_item text text-sm">Bipolar Plates Manufacturing</a>
+
+
+                <a href="/en/shop/products/category/equipment/electrolyser-test-equipment"
+                  class="item nested_item text text-sm">Electrolyser Test Equipment</a>
+
+
+                <a href="/en/shop/products/category/equipment/fuel-cell-assembly-lines"
+                  class="item nested_item text text-sm">Fuel Cell Assembly Lines</a>
+
+
+                <a href="/en/shop/products/category/equipment/fuel-cell-packing-systems"
+                  class="item nested_item text text-sm">Fuel Cell Packing Systems</a>
+
+
+                <a href="/en/shop/products/category/equipment/fuel-cell-test-equipment"
+                  class="item nested_item text text-sm">Fuel Cell Test Equipment</a>
+
+
+                <a href="/en/shop/products/category/equipment/hydrogen-component-test-equipment"
+                  class="item nested_item text text-sm">Hydrogen Component Test Equipment</a>
+
+
+                <a href="/en/shop/products/category/equipment/hydrogen-leak-detectors"
+                  class="item nested_item text text-sm">Hydrogen Leak Detectors</a>
+
+
+                <a href="/en/shop/products/category/equipment/hydrogen-tank-test-equipment"
+                  class="item nested_item text text-sm">Hydrogen Tank Test Equipment</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/equipment/measuring-devices">
+                    <span class="text">Measuring Devices</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(1, 1fr)">
+
+                    <a href="/en/shop/products/category/equipment/measuring-devices/fuel-cell-stack-measuring-device"
+                      class="item nested_item text text-sm">Fuel Cell Stack Measuring Device</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/equipment/tank-testing-devices"
+                  class="item nested_item text text-sm">Tank Testing Devices</a>
+
+
+                <a href="/en/shop/products/category/equipment/tool-boxes" class="item nested_item text text-sm">Tool
+                  Boxes</a>
+
+              </div>
+            </div>
+
+
+            <div class="ui simple dropdown item" tabindex="0">
+              <a href="/en/shop/products/category/systems" data-js="menu-link" class="menu-dropdown-link">
+                <span class="text text-sm">Systems</span>
+                <span class="material-symbols-outlined">expand_more</span>
+              </a>
+              <div class="menu hyfindr-column-menu" tabindex="-1">
+
+                <a href="/en/shop/products/category/systems/automation-systems"
+                  class="item nested_item text text-sm">Automation Systems</a>
+
+
+                <a href="/en/shop/products/category/systems/deoxygenation-systems"
+                  class="item nested_item text text-sm">Deoxygenation Systems</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/systems/electrolysers">
+                    <span class="text">Electrolysers</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(2, 1fr)">
+
+                    <a href="/en/shop/products/category/systems/electrolysers/aem-electrolysers"
+                      class="item nested_item text text-sm">AEM Electrolysers</a>
+
+
+                    <a href="/en/shop/products/category/systems/electrolysers/pem-electrolysers"
+                      class="item nested_item text text-sm">PEM Electrolysers</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/systems/energy-generators"
+                  class="item nested_item text text-sm">Energy Generators</a>
+
+
+                <a href="/en/shop/products/category/systems/fuel-cell-exhaust-air-systems"
+                  class="item nested_item text text-sm">Fuel Cell Exhaust Air Systems</a>
+
+
+                <a href="/en/shop/products/category/systems/fuel-cell-systems"
+                  class="item nested_item text text-sm">Fuel
+                  Cell Systems</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/systems/hydrogen-compression-systems">
+                    <span class="text">Hydrogen Compression Systems</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(2, 1fr)">
+
+                    <a href="/en/shop/products/category/systems/hydrogen-compression-systems/diaphragm-compressors"
+                      class="item nested_item text text-sm">Diaphragm Compressors</a>
+
+
+                    <a href="/en/shop/products/category/systems/hydrogen-compression-systems/hydrogen-piston-compressors"
+                      class="item nested_item text text-sm">Hydrogen Piston Compressors</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/systems/hydrogen-cooling-systems"
+                  class="item nested_item text text-sm">Hydrogen Cooling Systems</a>
+
+
+                <a href="/en/shop/products/category/systems/hydrogen-dispensers"
+                  class="item nested_item text text-sm">Hydrogen Dispensers</a>
+
+
+                <a href="/en/shop/products/category/systems/hydrogen-generators"
+                  class="item nested_item text text-sm">Hydrogen Generators</a>
+
+
+                <a href="/en/shop/products/category/systems/hydrogen-power-generators"
+                  class="item nested_item text text-sm">Hydrogen Power Generators</a>
+
+
+                <a href="/en/shop/products/category/systems/hydrogen-refueling-modules"
+                  class="item nested_item text text-sm">Hydrogen Refueling Modules</a>
+
+
+                <a href="/en/shop/products/category/systems/hydrogen-refueling-stations"
+                  class="item nested_item text text-sm">Hydrogen Refueling Stations</a>
+
+
+                <a href="/en/shop/products/category/systems/hydrogen-refueling-trailers"
+                  class="item nested_item text text-sm">Hydrogen Refueling Trailers</a>
+
+
+                <a href="/en/shop/products/category/systems/hydrogen-storage-systems"
+                  class="item nested_item text text-sm">Hydrogen Storage Systems</a>
+
+
+                <a href="/en/shop/products/category/systems/hydrogen-treatment-systems"
+                  class="item nested_item text text-sm">Hydrogen Treatment Systems</a>
+
+
+                <a href="/en/shop/products/category/systems/nitrogen-generators"
+                  class="item nested_item text text-sm">Nitrogen Generators</a>
+
+
+                <a href="/en/shop/products/category/systems/remote-i-o-systems"
+                  class="item nested_item text text-sm">Remote I/O Systems</a>
+
+
+                <a href="/en/shop/products/category/systems/sensor-actuator-boxes"
+                  class="item nested_item text text-sm">Sensor Actuator Boxes</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/systems/system-cabinets">
+                    <span class="text">System Cabinets</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(1, 1fr)">
+
+                    <a href="/en/shop/products/category/systems/system-cabinets/fuel-cell-cabinets"
+                      class="item nested_item text text-sm">Fuel Cell Cabinets</a>
+
+                  </div>
+                </div>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/systems/system-cases">
+                    <span class="text">System Cases</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(1, 1fr)">
+
+                    <a href="/en/shop/products/category/systems/system-cases/fuel-cell-cases"
+                      class="item nested_item text text-sm">Fuel Cell Cases</a>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="ui simple dropdown item" tabindex="0">
+              <a href="/en/shop/products/category/services" data-js="menu-link" class="menu-dropdown-link">
+                <span class="text text-sm">Services</span>
+                <span class="material-symbols-outlined">expand_more</span>
+              </a>
+              <div class="menu hyfindr-column-menu" style="grid-template-rows: repeat(11, 1fr)" tabindex="-1">
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/services/consulting-services">
+                    <span class="text">Consulting Services</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(1, 1fr)">
+
+                    <a href="/en/shop/products/category/services/consulting-services/strategic-consulting"
+                      class="item nested_item text text-sm">Strategic Consulting</a>
+
+                  </div>
+                </div>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/services/development-services">
+                    <span class="text">Development Services</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(7, 1fr)">
+
+                    <a href="/en/shop/products/category/services/development-services/bipolar-plate-design-services"
+                      class="item nested_item text text-sm">Bipolar Plate Design Services</a>
+
+
+                    <a href="/en/shop/products/category/services/development-services/electronics-development"
+                      class="item nested_item text text-sm">Electronics Development</a>
+
+
+                    <a href="/en/shop/products/category/services/development-services/fuel-cell-modelling"
+                      class="item nested_item text text-sm">Fuel Cell Modelling</a>
+
+
+                    <a href="/en/shop/products/category/services/development-services/fuel-cell-system-design"
+                      class="item nested_item text text-sm">Fuel Cell System Design</a>
+
+
+                    <a href="/en/shop/products/category/services/development-services/fuel-cell-system-integration"
+                      class="item nested_item text text-sm">Fuel Cell System Integration</a>
+
+
+                    <a href="/en/shop/products/category/services/development-services/fuel-cell-system-simulation"
+                      class="item nested_item text text-sm">Fuel Cell System Simulation</a>
+
+
+                    <a href="/en/shop/products/category/services/development-services/hydrogen-infrastructure-development"
+                      class="item nested_item text text-sm">Hydrogen Infrastructure Development</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/services/engineering-services"
+                  class="item nested_item text text-sm">Engineering Services</a>
+
+
+                <a href="/en/shop/products/category/services/fire-and-gas-mapping-services"
+                  class="item nested_item text text-sm">Fire and Gas Mapping Services</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/services/production-services">
+                    <span class="text">Production Services</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(1, 1fr)">
+
+                    <a href="/en/shop/products/category/services/production-services/technology-and-plant"
+                      class="item nested_item text text-sm">Technology and Plant</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/services/project-management"
+                  class="item nested_item text text-sm">Project Management</a>
+
+
+                <a href="/en/shop/products/category/services/renting-services"
+                  class="item nested_item text text-sm">Renting Services</a>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/services/safety-services">
+                    <span class="text">Safety Services</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(1, 1fr)">
+
+                    <a href="/en/shop/products/category/services/safety-services/process-safety-engineering"
+                      class="item nested_item text text-sm">Process Safety Engineering</a>
+
+                  </div>
+                </div>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/services/software">
+                    <span class="text">Software</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(1, 1fr)">
+
+                    <a href="/en/shop/products/category/services/software/control-software-development"
+                      class="item nested_item text text-sm">Control Software Development</a>
+
+                  </div>
+                </div>
+
+
+                <div class="item nested_item">
+                  <a href="/en/shop/products/category/services/testing-services">
+                    <span class="text">Testing Services</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </a>
+
+                  <div class="menu right hyfindr-column-menu" style="grid-template-rows: repeat(7, 1fr)">
+
+                    <a href="/en/shop/products/category/services/testing-services/components-testing"
+                      class="item nested_item text text-sm">Components Testing</a>
+
+
+                    <a href="/en/shop/products/category/services/testing-services/electronics-testing"
+                      class="item nested_item text text-sm">Electronics Testing</a>
+
+
+                    <a href="/en/shop/products/category/services/testing-services/fuel-cell-systems-testing"
+                      class="item nested_item text text-sm">Fuel Cell Systems Testing</a>
+
+
+                    <a href="/en/shop/products/category/services/testing-services/hydrogen-systems-testing"
+                      class="item nested_item text text-sm">Hydrogen Systems Testing</a>
+
+
+                    <a href="/en/shop/products/category/services/testing-services/material-testing"
+                      class="item nested_item text text-sm">Material Testing</a>
+
+
+                    <a href="/en/shop/products/category/services/testing-services/powertrain-testing"
+                      class="item nested_item text text-sm">Powertrain Testing</a>
+
+
+                    <a href="/en/shop/products/category/services/testing-services/shaker-testing"
+                      class="item nested_item text text-sm">Shaker Testing</a>
+
+                  </div>
+                </div>
+
+
+                <a href="/en/shop/products/category/services/training-services"
+                  class="item nested_item text text-sm">Training Services</a>
+
+              </div>
+            </div>
+
+
+            <div class="ui simple dropdown item" tabindex="0">
+              <a href="/en/shop/products/category/materials" data-js="menu-link" class="menu-dropdown-link">
+                <span class="text text-sm">Materials</span>
+                <span class="material-symbols-outlined">expand_more</span>
+              </a>
+              <div class="menu hyfindr-column-menu" style="grid-template-rows: repeat(6, 1fr)" tabindex="-1">
+
+                <a href="/en/shop/products/category/materials/catalysts"
+                  class="item nested_item text text-sm">Catalysts</a>
+
+
+                <a href="/en/shop/products/category/materials/coatings"
+                  class="item nested_item text text-sm">Coatings</a>
+
+
+                <a href="/en/shop/products/category/materials/compounds"
+                  class="item nested_item text text-sm">Compounds</a>
+
+
+                <a href="/en/shop/products/category/materials/electrodes"
+                  class="item nested_item text text-sm">Electrodes</a>
+
+
+                <a href="/en/shop/products/category/materials/mesophase-pitch"
+                  class="item nested_item text text-sm">Mesophase Pitch</a>
+
+
+                <a href="/en/shop/products/category/materials/purification-materials"
+                  class="item nested_item text text-sm">Purification Materials</a>
+
+              </div>
+            </div>
+
+
+            <div class="ui simple right dropdown item" tabindex="0">
+              <span class="text text-sm">by Country</span>
+              <span class="material-symbols-outlined">expand_more</span>
+              <div class="menu hyfindr-column-menu countries" tabindex="-1">
+                <a href="/en/countries/AL" class="item">Albania</a>
+                <a href="/en/countries/DZ" class="item">Algeria</a>
+                <a href="/en/countries/AD" class="item">Andorra</a>
+                <a href="/en/countries/AR" class="item">Argentina</a>
+                <a href="/en/countries/AU" class="item">Australia</a>
+                <a href="/en/countries/AT" class="item">Austria</a>
+                <a href="/en/countries/BH" class="item">Bahrain</a>
+                <a href="/en/countries/BY" class="item">Belarus</a>
+                <a href="/en/countries/BE" class="item">Belgium</a>
+                <a href="/en/countries/BO" class="item">Bolivia</a>
+                <a href="/en/countries/BR" class="item">Brazil</a>
+                <a href="/en/countries/BN" class="item">Brunei</a>
+                <a href="/en/countries/BG" class="item">Bulgaria</a>
+                <a href="/en/countries/CM" class="item">Cameroon</a>
+                <a href="/en/countries/CA" class="item">Canada</a>
+                <a href="/en/countries/CL" class="item">Chile</a>
+                <a href="/en/countries/CN" class="item">China</a>
+                <a href="/en/countries/CO" class="item">Colombia</a>
+                <a href="/en/countries/CR" class="item">Costa Rica</a>
+                <a href="/en/countries/HR" class="item">Croatia</a>
+                <a href="/en/countries/CY" class="item">Cyprus</a>
+                <a href="/en/countries/CZ" class="item">Czechia</a>
+                <a href="/en/countries/DK" class="item">Denmark</a>
+                <a href="/en/countries/EC" class="item">Ecuador</a>
+                <a href="/en/countries/EG" class="item">Egypt</a>
+                <a href="/en/countries/EE" class="item">Estonia</a>
+                <a href="/en/countries/FI" class="item">Finland</a>
+                <a href="/en/countries/FR" class="item">France</a>
+                <a href="/en/countries/GE" class="item">Georgia</a>
+                <a href="/en/countries/DE" class="item">Germany</a>
+                <a href="/en/countries/GI" class="item">Gibraltar</a>
+                <a href="/en/countries/GR" class="item">Greece</a>
+                <a href="/en/countries/GD" class="item">Grenada</a>
+                <a href="/en/countries/HK" class="item">Hong Kong SAR China</a>
+                <a href="/en/countries/HU" class="item">Hungary</a>
+                <a href="/en/countries/IS" class="item">Iceland</a>
+                <a href="/en/countries/IN" class="item">India</a>
+                <a href="/en/countries/ID" class="item">Indonesia</a>
+                <a href="/en/countries/IE" class="item">Ireland</a>
+                <a href="/en/countries/IL" class="item">Israel</a>
+                <a href="/en/countries/IT" class="item">Italy</a>
+                <a href="/en/countries/JP" class="item">Japan</a>
+                <a href="/en/countries/JO" class="item">Jordan</a>
+                <a href="/en/countries/KZ" class="item">Kazakhstan</a>
+                <a href="/en/countries/LV" class="item">Latvia</a>
+                <a href="/en/countries/LI" class="item">Liechtenstein</a>
+                <a href="/en/countries/LT" class="item">Lithuania</a>
+                <a href="/en/countries/LU" class="item">Luxembourg</a>
+                <a href="/en/countries/MG" class="item">Madagascar</a>
+                <a href="/en/countries/MY" class="item">Malaysia</a>
+                <a href="/en/countries/MT" class="item">Malta</a>
+                <a href="/en/countries/MX" class="item">Mexico</a>
+                <a href="/en/countries/MD" class="item">Moldova</a>
+                <a href="/en/countries/MC" class="item">Monaco</a>
+                <a href="/en/countries/ME" class="item">Montenegro</a>
+                <a href="/en/countries/MA" class="item">Morocco</a>
+                <a href="/en/countries/NL" class="item">Netherlands</a>
+                <a href="/en/countries/NZ" class="item">New Zealand</a>
+                <a href="/en/countries/NI" class="item">Nicaragua</a>
+                <a href="/en/countries/NG" class="item">Nigeria</a>
+                <a href="/en/countries/NO" class="item">Norway</a>
+                <a href="/en/countries/OM" class="item">Oman</a>
+                <a href="/en/countries/PK" class="item">Pakistan</a>
+                <a href="/en/countries/PA" class="item">Panama</a>
+                <a href="/en/countries/PY" class="item">Paraguay</a>
+                <a href="/en/countries/PE" class="item">Peru</a>
+                <a href="/en/countries/PH" class="item">Philippines</a>
+                <a href="/en/countries/PL" class="item">Poland</a>
+                <a href="/en/countries/PT" class="item">Portugal</a>
+                <a href="/en/countries/PR" class="item">Puerto Rico</a>
+                <a href="/en/countries/QA" class="item">Qatar</a>
+                <a href="/en/countries/RO" class="item">Romania</a>
+                <a href="/en/countries/SA" class="item">Saudi Arabia</a>
+                <a href="/en/countries/RS" class="item">Serbia</a>
+                <a href="/en/countries/SG" class="item">Singapore</a>
+                <a href="/en/countries/SK" class="item">Slovakia</a>
+                <a href="/en/countries/SI" class="item">Slovenia</a>
+                <a href="/en/countries/ZA" class="item">South Africa</a>
+                <a href="/en/countries/KR" class="item">South Korea</a>
+                <a href="/en/countries/ES" class="item">Spain</a>
+                <a href="/en/countries/LK" class="item">Sri Lanka</a>
+                <a href="/en/countries/SE" class="item">Sweden</a>
+                <a href="/en/countries/CH" class="item">Switzerland</a>
+                <a href="/en/countries/TW" class="item">Taiwan</a>
+                <a href="/en/countries/TH" class="item">Thailand</a>
+                <a href="/en/countries/TN" class="item">Tunisia</a>
+                <a href="/en/countries/TR" class="item">Türkiye</a>
+                <a href="/en/countries/UA" class="item">Ukraine</a>
+                <a href="/en/countries/AE" class="item">United Arab Emirates</a>
+                <a href="/en/countries/GB" class="item">United Kingdom</a>
+                <a href="/en/countries/US" class="item">United States</a>
+                <a href="/en/countries/UY" class="item">Uruguay</a>
+                <a href="/en/countries/VE" class="item">Venezuela</a>
+                <a href="/en/countries/VN" class="item">Vietnam</a>
+              </div>
+            </div>
+
+
+            <a href="/en/vendors" class="item text-sm">Brands</a>
+          </div>
+          <a href="https://hyfindrbeta.com/en/account/vendor/register"
+            class="hyfindr btn btn--primary header-button capitalize">Register products</a>
+        </div>
+      </div>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui container">
+      <div class="ui breadcrumb">
+        <a href="/en/" class="section">Home</a>
+        <div class="divider"> / </div>
+        <div class="active section">Account</div>
+      </div>
+      <div class="ui stackable grid">
+        <!-- Aside Menu -->
+        <div class="four wide column account-menu">
+          <div class="ui fluid vertical menu">
+            <a class="item" href="/en/account/dashboard">
+              <div class="header" style="margin: 0;">
+                <i class="icon home"></i>
+                Home
+              </div>
+            </a>
+          </div>
+          <div class="ui fluid vertical menu">
+            <div class="header item">Company Account</div>
+            <a class="item" href="/en/account/orders">
+              <i class="icon shopping bag"></i>
+              Purchases
+            </a>
+            <a class="item" href="/en/account/shop-rfq/">
+              <i class="icon handshake"></i>
+              RFQs sent
+            </a>
+            <a class="item" href="/en/account/shop-inquiry/">
+              <i class="icon question circle"></i>
+              Inquiries sent
+            </a>
+            <a class="item" href="/en/organization/update">
+              <i class="icon book"></i>
+              Company Profile
+            </a>
+            <a class="item" href="/en/account/organization/billing-data/">
+              <i class="icon world"></i>
+              Billing Address
+            </a>
+            <a class="item" href="/en/account/organization/">
+              <i class="icon briefcase"></i>
+              User Management
+            </a>
+            <a class="item" href="/en/account/vendor/message-routing/">
+              <i class="icon sync"></i>
+              Lead routing
+            </a>
+          </div>
+          <div class="ui fluid vertical menu">
+            <div class="header item">Your Account</div>
+            <a class="item active" href="/en/account/profile/edit">
+              <i class="icon user"></i>
+              My Profile
+            </a>
+            <a class="item" href="/en/account/change-password">
+              <i class="icon lock"></i>
+              Change Password
+            </a>
+            <a class="item" href="/en/logout">
+              <i class="icon sign-out"></i>
+              Logout
+            </a>
+          </div>
+          <div class="ui fluid vertical menu">
+            <div class="header item">Vendor Account</div>
+            <a class="item" href="/en/account/vendor/register">
+              <i class="icon star"></i>
+              Become a Vendor
+            </a>
+          </div>
+        </div>
+        <!-- Main : Page Content -->
+        <div class="twelve wide column">
+          <!-- ============================= [ Copyable Content ] ============================= -->
+          <section class="page-header">
+            <h2 class="page-header__title">Account</h2>
+            <p class="page-header__sub-title">
+              Manage your personal information and preferences
+            </p>
+          </section>
+          <div class="page-content">
+            <div class="user-account-card">
+              <div class="user-account-card__body">
+                <div class="block-start">
+                  <div class="customer-info">
+                    <div class="customer-picture">
+                      <span class="blue-tick">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.12" height="25.128"
+                          viewBox="0 0 25.12 25.128">
+                          <defs>
+                            <clipPath id="clip-path">
+                              <rect id="Rectangle_849" data-name="Rectangle 849" width="8.044" height="5.957" fill="#fff" />
+                            </clipPath>
+                          </defs>
+                          <g id="blue-tick" transform="translate(0.75 0.75)">
+                            <path id="Path_2693" data-name="Path 2693"
+                              d="M21.29,15.752a4.342,4.342,0,0,1-1.12,4.38A4.5,4.5,0,0,1,15.745,21.3a4.465,4.465,0,0,1-7.841,0,4.5,4.5,0,0,1-5.589-5.516,4.545,4.545,0,0,1,.023-7.934,4.444,4.444,0,0,1,5.548-5.5,4.453,4.453,0,0,1,7.85-.01,4.37,4.37,0,0,1,4.429,1.141A4.577,4.577,0,0,1,21.3,7.9a4.479,4.479,0,0,1-.014,7.852"
+                              transform="translate(0 -0.001)" fill="currentColor" class="color-primary" stroke="#fff" stroke-linecap="round"
+                              stroke-width="1.5" />
+                            <g id="Group_1691" data-name="Group 1691" transform="translate(7.762 8.675)" style="isolation: isolate">
+                              <g id="Group_1690" data-name="Group 1690">
+                                <g id="Group_1689" data-name="Group 1689" clip-path="url(#clip-path)">
+                                  <path id="Path_2692" data-name="Path 2692"
+                                    d="M62.652,70.093q-.85.859-1.707,1.713l-2.339,2.336a.868.868,0,0,1-1.44.026c-.659-.644-1.3-1.307-1.957-1.952a.9.9,0,1,1,1.308-1.241c.333.317.657.645.987.967.116.113.238.22.4.369.175-.171.3-.294.431-.421l2.757-2.757a3.739,3.739,0,0,1,.36-.337.9.9,0,0,1,1.431.366.762.762,0,0,1-.231.929"
+                                    transform="translate(-54.915 -68.581)" fill="#fff" />
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </svg>
+                      </span>
+                      <div class="user-image">
+                        <!-- <img src="https://i.pinimg.com/originals/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.png" alt="customer Image" />  -->
+                        <!-- placeholder -->
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb" alt="customer Image" />
+                      </div>
+                    </div>
+                    <div class="customer-info__content">
+                      <h3 class="__name">Customer Name</h3>
+                      <p class="__email">
+                        <span>Email:</span> 
+                        <strong>user@useremail.com</strong>
+                        <span class="badge">
+                          <i class="checkmark icon"></i> Verified
+                        </span>
+                      </p>
+                    </div>                  
+                  </div>
+                </div>
+                <div class="block-end">
+                  <div class="organization-info">
+                    <h4 class="title">Organization:</h4>
+                    <ul class="org-info-list">
+                      <li class="org-info-list__item">
+                        <span class="__label">Name:</span>
+                        <strong class="__value">HyFinder</strong>
+                      </li>
+                      <li class="org-info-list__item">
+                        <span class="__label">Roles:</span>
+                        <strong class="__value">Role User Role Organization Admin</strong>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="user-account-card__footer">
+                <div class="buttons-container">
+                  <button class="ui small basic button">
+                    <i class="icon user"></i>
+                    Edit
+                  </button>
+                  <button class="ui small basic button">
+                    <i class="icon pencil alternate"></i>
+                    Change password
+                  </button>
+                </div>
+                <button class="ui small basic button">
+                  <i class="icon sign-out"></i>
+                  Logout
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- ============================= [ Copyable Content ] ============================= -->
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="bg-topaz-50">
+      <div class="ui container">
+        <div class="footer-grid">
+
+
+          <div class="footer--logo-column">
+            <a href="/en/">
+              <img src="/build/shop/images/hyfindr_logo.8b76780e.svg" alt="Hyfindr logo" class="logo">
+            </a>
+            <div class="text-xs">Copyright © 2024 Hyfindr GmbH</div>
+          </div>
+
+          <div id="first" class="footer--text-column">
+
+            <div class="text-column-content">
+              <div class="text-xs uppercase text-topaz-400">Hyfindr</div>
+              <div class="text-column-content-list">
+                <a href="/en/register/shop" class="footer-link text-sm">
+                  For Vendors
+                </a>
+                <a href="/en/organization/register" class="footer-link text-sm">
+                  For Buyers
+                </a>
+                <a href="/en/newsletter" class="footer-link text-sm">
+                  Newsletter
+                </a>
+                <a href="https://hyfindrbeta.com/en/company/contact-us" class="footer-link text-sm">
+                  Contact Us
+                </a>
+              </div>
+            </div>
+
+            <div class="text-column-content-list">
+              <div class="text-xs uppercase text-topaz-400">Company</div>
+              <a href="/en/company/our-mission" class="footer-link text-sm">
+                Mission and Vision
+              </a>
+
+              <a href="https://hyfindrbeta.com/en/blog" class="footer-link text-sm">Blog</a>
+              <a href="/en/company/management" class="footer-link text-sm">
+                Management Team
+              </a>
+
+              <a href="/en/company/advisory-board" class="footer-link text-sm">
+                Advisory Board
+              </a>
+
+            </div>
+          </div>
+          <div id="second" class="footer--text-column">
+            <div class="text-xs uppercase text-topaz-400">Legal information</div>
+            <div class="text-column-content">
+              <div class="text-column-content-list">
+                <a href="/en/legal/privacy-policy" class="footer-link text-sm">
+                  Privacy Policy
+                </a>
+
+                <a href="/en/legal/general-terms-and-conditions" class="footer-link text-sm">
+                  General Terms and Conditions
+                </a>
+
+                <a href="/en/legal/vendor-terms-and-conditions" class="footer-link text-sm">
+                  Vendor Terms &amp; Conditions
+                </a>
+
+                <a href="/en/legal/imprint" class="footer-link text-sm">
+                  Imprint
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://hyfindrbeta.com/build/shop/shop-entry.5bd4a315.js"></script>
+  <script src="https://hyfindrbeta.com/build/bitbag/b2b-plugin/shop/bitbag-b2b-plugin-shop.js"></script>
+  <script src="https://hyfindrbeta.com/build/bitbag/syliusBannerPlugin/shop/bitbag-syliusBannerPlugin-shop.js"></script>
+  <script src="/assets/js/semantic.js"></script>
+</body>
+
+</html>

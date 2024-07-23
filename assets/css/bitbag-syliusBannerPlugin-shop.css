@@ -1,0 +1,48 @@
+.banners-wrapper {
+  height: 600px;
+  margin-bottom: 45px;
+  position: relative;
+  width: 100%
+}
+
+.banners-carousel {
+  height: 100%;
+  width: 100%
+}
+
+.banners-carousel .slick-list,
+.banners-carousel .slick-slide>div,
+.banners-carousel .slick-track {
+  height: 100%
+}
+
+.banners-slide {
+  height: 100%;
+  overflow: hidden
+}
+
+.banners-item {
+  display: block;
+  height: 100%
+}
+
+.banners-item img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%
+}
+
+.banners-nav-left,
+.banners-nav-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.banners-nav-left {
+  left: 30px
+}
+
+.banners-nav-right {
+  right: 30px
+}
